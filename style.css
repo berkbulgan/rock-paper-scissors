@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+html, *, *::after, *::before{
+    box-sizing: border-box;
+    background-color: #363636;
+    color: #f2f2f2;
+    font-family: "Amatic SC";
+    font-weight: 400;
+    text-align: Center;
+}
+body{
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+h1{
+    font-weight: 700px;
+    font-size: 4em;
+}
+h3{
+    font-size: 2em;
+}
+.greenText{
+    color: green;
+}
+.redText{
+    color: red;
+}
+.flavorText{
+    font-size: 2.5em;
+}
+.score{
+    font-size: 2.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score #vs{
+    padding: 0px 25px;
+}
+.playerScore{
+    display: flex;
+    flex-direction: column;
+}
+.controller{
+    margin: 0 auto;
+    max-width: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.controller .key{
+    font-size: 30px;
+    margin: 50px;
+    width: 100px;
+    height: 50px;
+    border: 5px #f2f2f2 solid;
+    border-radius: 20px;
+}
+
+#reset{
+    border: 5px #f2f2f2 solid;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 2.5em;
+    width:fit-content;
+    padding: 10px;
+}
